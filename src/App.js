@@ -9,7 +9,7 @@ function App() {
   let [isMoring,setMorning]=useState(false)
   let [count , setCount]= useState(1)
   return <div className= {`box ${isMoring ? "dayLight":""} `} > 
-      <h3>Is Day = {isMoring ? "Moring":"Night" } </h3>
+      <h3>Good {isMoring ? "Moring":"Night" } </h3>
        <Message counter={count} />
     <button onClick={ ()=> setCount(count +1)} >increment</button>
     <br/>
