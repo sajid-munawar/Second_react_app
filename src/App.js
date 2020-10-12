@@ -6,7 +6,7 @@ import {Message} from "./Message.js"
 import "./App.css"
 
 function App() {
-  let [isDay,setDay]=useState(true)
+  // let [isDay,setDay]=useState(true)
   let [count , setCount]= useState(1)
   return <div className="box"> 
        <Message counter={count} />
