@@ -4,3 +4,6 @@
   .dayLight {
     background-color: yellow;
   }
+  .page {
+    height: 100vh;
+  }

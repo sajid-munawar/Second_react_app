@@ -8,7 +8,7 @@ import "./App.css"
 function App() {
   let [isMoring,setMorning]=useState(false)
   let [count , setCount]= useState(1)
-  return <div className= {`box ${isMoring ? "dayLight":""} `} > 
+  return <div className= {`page ${isMoring ? "dayLight":"box"} `} > 
       <h3>Good {isMoring ? "Moring":"Night" } </h3>
        <Message counter={count} />
     <button onClick={ ()=> setCount(count +1)} >increment</button>
